@@ -4,12 +4,12 @@ The function in code.R performs a Bayesian proportion test between multiple grou
 
 ## Demonstration
 
-Suppose we want to compare the proportions of three groups using Jeffreys' prior.  In this example, we will generate three groups arbitrarily where the third group is the discriminating group.
+Suppose we want to compare the proportions of three groups using Jeffreys' prior.  In this example, we will generate three groups arbitrarily where the third group is the discriminating group.  Sample size are 25 in this example; however, sample sizes need not be equal. 
 
 ```
-x_1 = sum(rbinom(n=25, size = 1, prob = 0.3))
-x_2 = sum(rbinom(n=25, size = 1, prob = 0.3))
-x_3 = sum(rbinom(n=25, size = 1, prob = 0.7))
+x_1 = sum(rbinom(n = 25, size = 1, prob = 0.3))
+x_2 = sum(rbinom(n = 25, size = 1, prob = 0.3))
+x_3 = sum(rbinom(n = 25, size = 1, prob = 0.7))
 
 bayes.prop.test(x = c(x_1, x_2, x_3),
                 n = c(25, 25, 25),
