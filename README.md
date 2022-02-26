@@ -1,6 +1,6 @@
 # Bayes-Proportion-Test
 ## Description
-The function in code.R performs a Bayesian proportion test between multiple groups.  The user must supply the number of successes (x) as a vector, the sample sizes (n) as a vector, and the prior setting.  For a uniform prior, let a=b=1. For the Jeffreys' prior, let a=b=0.5. The function will return the Bayes Factor, posterior probability, 95% credible interval, and posterior mean for the proportional difference of any two groups.  The function run 10,000 Monte Carlo iterations with seed = 1 for reproducibility.
+The function in code.R performs a Bayesian proportion test between multiple groups.  The user must supply the number of successes (x) as a vector, the sample sizes (n) as a vector, and the prior setting.  For a uniform prior, let a=b=1. For the Jeffreys' prior, let a=b=0.5. The function will return the Bayes Factor, posterior probability, 95% credible interval, and posterior mean for the proportional difference of any two groups.  The function will run 10,000 Monte Carlo iterations (the posterior is in closed form, so MCMC is not necessary) with seed = 1 for reproducibility.  
 
 ## Demonstration
 
