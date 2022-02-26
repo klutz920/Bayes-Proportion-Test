@@ -1,2 +1,3 @@
 # Bayes-Proportion-Test
-## Table of Contents
+## Description
+The function in Rcode.R 
