@@ -19,4 +19,4 @@ bayes.prop.test(x = c(x_1, x_2, x_3),
 
 ## More Information
 
-In our study, the vector x was the sum of zeros and ones for a gene from all samples within a particular group.
+In our study, the vector x contained the sum of zeros and ones for a gene from all samples for each group separately.
