@@ -20,3 +20,7 @@ bayes.prop.test(x = c(x_1, x_2, x_3),
 ## More Information
 
 In our study, the vector x contained the sum of zeros and ones for a gene from all samples for each group separately.
+
+## Data
+
+Our data discussed in the paper "Recurrent urinary tract infection and estrogen shape the taxonomic ecology and 2functional potential of the postmenopausal urobiome" by Michael L. Neugent, et. al. is contained in ARG_data.csv. 
