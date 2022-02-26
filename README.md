@@ -11,8 +11,8 @@ x_1 = sum(rbinom(n=25, size = 1, prob = 0.3))
 x_2 = sum(rbinom(n=25, size = 1, prob = 0.3))
 x_3 = sum(rbinom(n=25, size = 1, prob = 0.7))
 
-bayes.prop.test( x = c(x_1, x_2, x_3),
-                 n = c(25, 25, 25),
-                 a = 0.5,
-                 b = 0.5)
+bayes.prop.test(x = c(x_1, x_2, x_3),
+                n = c(25, 25, 25),
+                a = 0.5,
+                b = 0.5)
 ```
