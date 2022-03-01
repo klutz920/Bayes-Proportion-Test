@@ -23,4 +23,4 @@ In our study, the vector x contained the sum of zeros and ones for a gene from a
 
 ## Data
 
-The data analyzed for enrichment of antimicrobial resistant genes (ARGs) in the paper "Recurrent urinary tract infection and estrogen shape the taxonomic ecology and functional potential of the postmenopausal urobiome" by Michael L. Neugent, et. al. is contained in ARG_data.csv. 
+The data analyzed for enrichment of antimicrobial resistant genes (ARGs) in the paper "Recurrent urinary tract infection and estrogen shape the taxonomic ecology and functional potential of the postmenopausal urobiome" by Michael L. Neugent, et. al. is contained in the data folder. 
