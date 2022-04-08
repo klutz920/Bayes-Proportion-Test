@@ -28,6 +28,11 @@ Results:
 6      3 <= 2  0.00000000      0.0000 -0.7303158 -0.88637342 -0.52719511
 ```
 
+Alternatives 3 and 5 are significant in all aspects: the Bayes Factor (BF) is infinity, posterior probability is 1, and zero is not contained between the lower and upper bounds of the 95% credible interval.  Thus, 3 > 1 and 3 > 2 are the only two significant constrasts which indicates that the proportion of group 3 is significantly greater than groups 1 and 2.  The mean proportion difference between groups 3 and 1 is 0.5769251; the mean proportion difference betweeen groups 3 and 2 is 0.7303158.  
+
+While the BF is moderately significant for 2 <= 1, zero is contained between the lower and upper bounds of the 95% credible interval suggesting that the difference between the proportions of these two groups is insignficant.  
+
+
 ## More Information
 
 In our study, the vector x contained the sum of zeros and ones for a gene from all samples for each group separately.
