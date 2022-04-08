@@ -17,6 +17,17 @@ bayes.prop.test(x = c(x_1, x_2, x_3),
                 b = 0.5)
 ```
 
+Results:
+```
+  alternative          BF Probability       mean         lwr         upp
+1       2 > 1  0.08905464      0.0799 -0.1533907 -0.36749985  0.06884772
+2      2 <= 1 11.22906126      0.9201  0.1533907 -0.06884772  0.36749985
+3       3 > 1         Inf      1.0000  0.5769251  0.34403396  0.77184085
+4      3 <= 1  0.00000000      0.0000 -0.5769251 -0.77184085 -0.34403396
+5       3 > 2         Inf      1.0000  0.7303158  0.52719511  0.88637342
+6      3 <= 2  0.00000000      0.0000 -0.7303158 -0.88637342 -0.52719511
+```
+
 ## More Information
 
 In our study, the vector x contained the sum of zeros and ones for a gene from all samples for each group separately.
